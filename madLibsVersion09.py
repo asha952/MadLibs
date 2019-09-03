@@ -1,0 +1,22 @@
+print("Hi, welcome to Madlibs")
+input("Press any key to continue")
+
+livingNoun1 = input("enter a living noun: ")
+name1 = input("enter a name: ")
+adj1 = input("enter an adjective: ")
+adj2 = input("enter a different adjective: ")
+place1 = input("enter a place to go: ")
+place2 = input("enter a different place: ")
+food1 = input("enter a food to eat: ")
+activity = input("enter an activity: ")
+formOfTransport = input("enter a form of transport: ")
+
+
+print("Once upon a time there was a " + livingNoun1 + " named " + name1 + ". ")
+print("It was " + adj1 + " and " + adj2 + ". ")
+print("One day " + name1 + " had to go to " + place1 + ". ")
+print("Over there, " + name1 + " ate " + food1 + ". ")
+print("Then he/she/they decided to " + activity)
+print("but after doing so, they realized they wanted to go to" + place2)
+print("It was too long to walk so they decided to go by  " + formOfTransport)
+print("The End")
